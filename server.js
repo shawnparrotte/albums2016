@@ -2,8 +2,7 @@ const express  = require("express");
 const app      = express();
 const mongoose = require("mongoose");
 const path     = require('path');
-
-var port = process.env.PORT || 3000;
+var port       = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
 
