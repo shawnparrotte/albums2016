@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6, p, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: inline-block;
+  transition: box-shadow .3s;
+  margin: 10px;
+}
+
+.container:hover {box-shadow: 0 0 30px #999;}
+
+.album-cover {
+  height: 215px;
+  width: 275px;
+  background-size: 275px 275px;
+  background-position: top;
+  transition: background-size .3s;
+}
+
+.album-info {
+  height: 150px;
+  width: 273px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+.artist {padding: 15px 0 0 0;}
+.genre {padding: 15px 0 10px 0;}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu";
+}
+
+.listen a {
+  color: red;
+  text-decoration: none;
+}
+
+.score, .listen {padding: 5px;}
+.score {border-right: 1px solid lightgrey;}
+
+
+
+
+
+#card-wrapper {
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Shawn's Favorite Albums Of 2016",
+  "description": "A simple node.js app collecting my favorite albums of the year.",
+  "keywords": [
+    "Node.js",
+    "Music",
+    "MongoDB"
+  ],
+  "repository": "https://github.com/shawnparrotte/albums2016.git",
+}
