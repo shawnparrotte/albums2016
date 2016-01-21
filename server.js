@@ -3,6 +3,8 @@ const app      = express();
 const mongoose = require("mongoose");
 const path     = require('path');
 
+var port = process.env.PORT || 3000;
+
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
@@ -14,7 +16,7 @@ var db = mongoose.connection;
 db.on("error", console.error);
 
 db.once("open", function(err){
-  app.listen(3000);
+  app.listen(port);
 });
 
 var schema = {
