@@ -28,7 +28,6 @@ var schema = {
 }
 
 var Albums = mongoose.model("Albums", schema);
-
 var info;
 
 Albums.find(function(err, data){
